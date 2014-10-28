@@ -158,15 +158,15 @@ type public Time (ticks:int64) =
     static member public op_Addition (time:Time, ms : decimal) = 
         time + TimeSpan.FromMilliseconds(float ms)
 
-    // Time + TimeSpan -> Time
+    /// Time + TimeSpan -> Time
     static member public op_Addition (time:Time, span : TimeSpan) = 
         new Time(time.Ticks + span.Ticks)
 
-    // Time - TimeSpan -> Time
+    /// Time - TimeSpan -> Time
     static member public op_Subtraction (time:Time, span : TimeSpan) = 
         new Time(time.Ticks - span.Ticks)
 
-    // Time - Time -> TimeSpan
+    /// Time - Time -> TimeSpan
     static member public op_Subtraction (left:Time, right : Time) = 
         new TimeSpan(left.Ticks - right.Ticks)
 
