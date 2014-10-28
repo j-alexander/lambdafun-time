@@ -39,6 +39,7 @@
     <Reference Include="FSharp.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AssemblyInfo.fs" />
     <Compile Include="Time.fs" />
   </ItemGroup>
   <PropertyGroup>
