@@ -5,7 +5,7 @@ distributed answer set solving benchmarks.
 
 Available to you under the GNU L-GPL: https://www.gnu.org/licenses/lgpl.html
 All other uses only with written permission.
- *)
+*)
 namespace LambdaFun.Core
 
 open System
