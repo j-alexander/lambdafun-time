@@ -1,9 +1,4 @@
 NUGET
   remote: https://www.nuget.org/api/v2
     FSharp.Core (9.0.303)
-    Microsoft.Build.Tasks.Git (8.0)
-    Microsoft.SourceLink.Common (8.0)
-    Microsoft.SourceLink.GitHub (8.0)
-      Microsoft.Build.Tasks.Git (>= 8.0)
-      Microsoft.SourceLink.Common (>= 8.0)
     System.ValueTuple (4.6.1)
