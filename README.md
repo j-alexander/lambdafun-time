@@ -1,4 +1,4 @@
-LambdaFun.Time
+![LambdaFun.Time](./LambdaFun.Time/Icons/LambdaFun.Time.Stopwatch.png)
 ==============
 An implementation of high precision time in F# for the .NET platform (C#, F#, VB.net ,etc).
 
