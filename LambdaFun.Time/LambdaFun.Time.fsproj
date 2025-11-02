@@ -2,14 +2,35 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net481;netstandard2.0;netcoreapp3.1;net80;net90</TargetFrameworks>
+
+    <!-- Attribution -->
     <AssemblyTitle>LambdaFun.Time</AssemblyTitle>
     <Product>LambdaFun.Time</Product>
     <Authors>Jonathan Leaver, MSc</Authors>
     <Copyright>Copyright (c) 2009 Jonathan Leaver, MSc</Copyright>
     <Company>University of Western Ontario - Artificial Intelligence Lab</Company>
     <Description>High precision time for measurement of distributed answer set solving benchmarks.</Description>
-    <AssemblyVersion>1.1.0.0</AssemblyVersion>
-    <FileVersion>1.1.0.0</FileVersion>
+
+    <!-- Versions -->
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <FileVersion>1.2.0.0</FileVersion>
+
+    <!-- Open Source Repository -->
+    <RepositoryUrl>https://github.com/j-alexander/lambdafun-time</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageIconUrl>https://avatars3.githubusercontent.com/u/4975537</PackageIconUrl>
+    <PackageLicense>https://www.gnu.org/licenses/lgpl.html</PackageLicense>
+
+    <!-- Source Link Configuration -->
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>false</EmbedUntrackedSources>
+    <DebugType>embedded</DebugType>
+    <IncludeSymbols>false</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+
+    <!-- Deterministic Builds -->
+    <Deterministic>true</Deterministic>
+    <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Time.fs" />
