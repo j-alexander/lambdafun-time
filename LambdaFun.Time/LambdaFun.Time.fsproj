@@ -19,7 +19,7 @@
     <!-- Open Source Repository -->
     <RepositoryUrl>https://github.com/j-alexander/lambdafun-time</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageIconUrl>https://avatars3.githubusercontent.com/u/4975537</PackageIconUrl>
+    <PackageIcon>https://raw.githubusercontent.com/j-alexander/lambdafun-time/master/Icons/66snyk66snyk66sn_128x128.png</PackageIcon>
     <PackageLicense>https://www.gnu.org/licenses/lgpl.html</PackageLicense>
 
     <!-- Basic Debug Info -->
