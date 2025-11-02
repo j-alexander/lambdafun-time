@@ -23,7 +23,7 @@ Built on top of .NET’s Stopwatch and DateTime to map high-resolution local tic
 ``` fsharp
 // F#
 open System
-open LambdaFun.Core
+open LambdaFun
 
 let t0 = Time.Now
 do something()

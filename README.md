@@ -7,7 +7,7 @@ For examples, see [LambdaFun.Time README](./LambdaFun.Time/README.md)
 ### New in [1.2]
 Modern Frameworks, F# 9, Improved Debugger Support
 - For Paket users, run `> dotnet paket add LambdaFun.Time --project [MyProject]`
-- For NuGet users, run `PM> Install-Package FSharp.Data.JsonPath`
+- For NuGet users, run `PM> Install-Package LambdaFun.Time`
 
 Prior version [1.1.0](https://www.nuget.org/packages/LambdaFun.Time/1.1.0) is still functionally equivalent, if you are running older versions of the above.
 
