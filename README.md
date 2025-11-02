@@ -2,6 +2,8 @@ LambdaFun.Time
 ==============
 An implementation of high precision time in F# for the .NET platform (C#, F#, VB.net ,etc).
 
+For examples, see [LambdaFun.Time README](./LambdaFun.Time/README.md)
+
 ### New in [1.2]
 Modern Frameworks, F# 9, Improved Debugger Support
 - For Paket users, run `> dotnet paket add LambdaFun.Time --project [MyProject]`
