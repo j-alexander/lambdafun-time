@@ -12,6 +12,7 @@
     <Description>High precision time for measurement of distributed answer set solving benchmarks.</Description>
 
     <!-- Versions -->
+    <Version>1.2.0</Version>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <FileVersion>1.2.0.0</FileVersion>
 
@@ -24,11 +25,9 @@
     <!-- Basic Debug Info -->
     <DebugType>embedded</DebugType>
     <DebugSymbols>true</DebugSymbols>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
 
     <!-- Deterministic Builds -->
-    <Deterministic>true</Deterministic>
     <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
   </PropertyGroup>
   <ItemGroup>
