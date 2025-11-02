@@ -21,18 +21,17 @@
     <PackageIconUrl>https://avatars3.githubusercontent.com/u/4975537</PackageIconUrl>
     <PackageLicense>https://www.gnu.org/licenses/lgpl.html</PackageLicense>
 
-    <!-- Source Link Configuration -->
-    <PublishRepositoryUrl>true</PublishRepositoryUrl>
-    <EmbedUntrackedSources>false</EmbedUntrackedSources>
+    <!-- Basic Debug Info -->
     <DebugType>embedded</DebugType>
-    <IncludeSymbols>false</IncludeSymbols>
-    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <DebugSymbols>true</DebugSymbols>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 
     <!-- Deterministic Builds -->
     <Deterministic>true</Deterministic>
     <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AssemblyAttributes.fs" />
     <Compile Include="Time.fs" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />
