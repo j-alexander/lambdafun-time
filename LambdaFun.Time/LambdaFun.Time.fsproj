@@ -19,7 +19,7 @@
     <!-- Open Source Repository -->
     <RepositoryUrl>https://github.com/j-alexander/lambdafun-time</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageIcon>https://raw.githubusercontent.com/j-alexander/lambdafun-time/master/Icons/66snyk66snyk66sn_128x128.png</PackageIcon>
+    <PackageIcon>LambdaFun.Time.png</PackageIcon>
     <PackageLicense>https://www.gnu.org/licenses/lgpl.html</PackageLicense>
 
     <!-- Basic Debug Info -->
@@ -30,7 +30,10 @@
     <!-- Deterministic Builds -->
     <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
   </PropertyGroup>
+
   <ItemGroup>
+    <None Include="Icons/LambdaFun.Time.png" Pack="true" PackagePath=""/>
+    <None Include="Icons/LambdaFun.Time.128x128.png" Pack="true" PackagePath=""/>
     <Compile Include="Time.fs" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />
