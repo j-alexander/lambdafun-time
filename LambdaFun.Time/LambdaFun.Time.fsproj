@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net45;net461;net462;netstandard1.6;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>net481;netstandard2.0;netcoreapp3.1;net80;net90</TargetFrameworks>
     <AssemblyTitle>LambdaFun.Time</AssemblyTitle>
     <Product>LambdaFun.Time</Product>
     <Authors>Jonathan Leaver, MSc</Authors>
