@@ -9,7 +9,6 @@ All other uses only with written permission.
 namespace LambdaFun.Core
 
 open System
-open System.Threading
 open System.Diagnostics
 
 /// an implementation of high-precision time
@@ -159,7 +158,7 @@ type public Time (ticks:int64) =
         time + TimeSpan.FromMilliseconds(float ms)
 
     /// Time + TimeSpan -> Time
-    static member public op_Addition (time:Time, span : TimeSpan) =
+    static member public op_Addition (time:Time, span : TimeSpan) :Time =
         new Time(time.Ticks + span.Ticks)
 
     /// Time - TimeSpan -> Time
