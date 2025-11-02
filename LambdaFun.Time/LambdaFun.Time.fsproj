@@ -19,7 +19,7 @@
     <!-- Open Source Repository -->
     <RepositoryUrl>https://github.com/j-alexander/lambdafun-time</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageIcon>LambdaFun.Time.png</PackageIcon>
+    <PackageIcon>LambdaFun.Time.Stopwatch.png</PackageIcon>
     <PackageLicense>https://www.gnu.org/licenses/lgpl.html</PackageLicense>
 
     <!-- Basic Debug Info -->
@@ -32,8 +32,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="Icons/LambdaFun.Time.png" Pack="true" PackagePath=""/>
-    <None Include="Icons/LambdaFun.Time.128x128.png" Pack="true" PackagePath=""/>
+    <None Include="Icons/LambdaFun.Time.png" />
+    <None Include="Icons/LambdaFun.Time.128x128.png" />
+    <None Include="Icons\LambdaFun.Time.Stopwatch.png" Pack="true" PackagePath=""/>
+    <None Include="Icons\LambdaFun.Time.Stopwatch.128x128.png" />
     <Compile Include="Time.fs" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />
